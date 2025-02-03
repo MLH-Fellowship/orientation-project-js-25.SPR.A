@@ -1,31 +1,16 @@
-import "./App.css";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import React from "react";
+import Home from "./Home";
+import AddEducation from "./AddEducation";
 
-function App() {
+export default function App() {
   return (
-    <div className="App">
-      <h1>Resume Builder</h1>
-      <div className="resumeSection">
-        <h2>Experience</h2>
-        <p>Experience Placeholder</p>
-        <button>Add Experience</button>
-        <br></br>
-      </div>
-      <div className="resumeSection">
-        <h2>Education</h2>
-        <p>Education Placeholder</p>
-        <button>Add Education</button>
-        <br></br>
-      </div>
-      <div className="resumeSection">
-        <h2>Skills</h2>
-        <p>Skill Placeholder</p>
-        <button>Add Skill</button>
-        <br></br>
-      </div>
-      <br></br>
-      <button>Export</button>
-    </div>
+    <Router>
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/addEducation" element={<AddEducation />} />
+      </Routes>
+    </Router>
   );
 }
 
-export default App;

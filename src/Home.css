@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@300..700&family=Host+Grotesk:ital,wght@0,300..800;1,300..800&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+
+body {
+  background: linear-gradient(-45deg, #BFECFF, #fff6e3, #ffccea);
+  background-size: 400% 400%;
+  animation: gradient 15s ease infinite;
+  height: 100vh;
+  font-family: "Host Grotesk", serif;
+  color: black;
+}
+
+@keyframes gradient {
+  0% {
+    background-position: 0% 50%;
+  }
+
+  50% {
+    background-position: 100% 50%;
+  }
+
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+.App {
+  text-align: center;
+  color: black;
+}
+
+.resumeSection {
+  background-color: white;
+  padding: 10px;
+  width: 28%;
+  height: 65vh;
+  border-radius: 15px;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+  margin-bottom: 20px;
+  color: black;
+}
+
+.resumeSection p {
+  font-style: italic;
+}
+
+.contentHolder {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+button {
+  outline: none;
+  border: none;
+  width: 10em;
+  height: 4em;
+  padding: 1em;
+  border-radius: 0.5em;
+  background-color: #C5BAFF;
+  margin-bottom: 2em;
+}
