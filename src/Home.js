@@ -11,7 +11,7 @@ export default function Home() {
         <div className="resumeSection">
           <h2>Experience</h2>
           <p>Experience Placeholder</p>
-          <button>Add Experience</button>
+          <button onClick={()=>navigate('/addExperience')}>Add Experience</button>
           <br></br>
         </div>
         <div className="resumeSection">
