@@ -23,7 +23,7 @@ export default function Home() {
         <div className="resumeSection">
           <h2>Skills</h2>
           <p>Skill Placeholder</p>
-          <button>Add Skill</button>
+          <button onClick={()=>navigate('/addSkill')}>Add Skill</button>
           <br></br>
         </div>
       </div>
