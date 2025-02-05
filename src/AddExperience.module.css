@@ -1,0 +1,75 @@
+.bodyContainer {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.mainContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 80vh;
+  width: 70vw;
+  background-color: #E195AB;
+  border-radius: 2em;
+  color: white;
+}
+
+.mainContainer>h2 {
+  margin: 0;
+  padding: 0;
+  margin-top: 1em;
+}
+
+.formContainer {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 3em;
+  justify-content: center;
+  height: 70%;
+  width: 90%;
+  background-color: white;
+  border-radius: 1em;
+  color: black;
+  padding-block: 1em;
+  margin-bottom: 1em;
+}
+
+.rightSide,
+.leftSide {
+  display: flex;
+  width: 45%;
+  flex-direction: column;
+  align-items: center;
+}
+
+input {
+  width: 90%;
+  height: 2em;
+  font-family: "Host Grotesk", serif;
+  padding-block: 0.5em;
+  padding-inline: 1em;
+  margin: 0.5em;
+  border-radius: 0.5em;
+  border: 1px black solid;
+}
+
+.subBut {
+  background-color: white;
+  margin-bottom: 1em;
+  color: black;
+}
+
+textarea {
+  font-family: "Host Grotesk", serif;
+  width: 95%;
+  height: 10em;
+  border-radius: 0.5em;
+  outline: 0;
+  border: 1px black solid;
+  padding: 0.5em;
+}
